@@ -16,7 +16,7 @@ export class TaskService {
     newTask.id = this.tasks.length + 1;
     newTask.name = name;
     newTask.dueDate = dueDate;
-    newTask.status = 'NOT STARTED';
+    newTask.status = 'NOT_STARTED';
     newTask.description = description;
     this.tasks.push(newTask);
 
